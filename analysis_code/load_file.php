@@ -1,4 +1,10 @@
 <?php
+/*
+ * create table mass
+ * (id int primary key auto_increment,
+ * mass double)
+ * 
+ */
 $con=mysql_connect('localhost','root','');
 $db_conn=mysql_select_db('cern',$con);
 
