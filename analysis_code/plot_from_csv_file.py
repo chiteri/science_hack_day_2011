@@ -4,9 +4,9 @@ import sys
 import csv
 from math import *
 
-import matplotlib.pyplot as plt
-import pylab as pylab
-import numpy as np
+#import matplotlib.pyplot as plt
+#import pylab as pylab
+#import numpy as np
 
 ################################################################################
 # Calculate the magnitude of a three-vector
@@ -88,10 +88,13 @@ def main():
                 mass_cp.append(mass0)
 
                 mass_sr.append(mass1)
+		print mass1
+		#print mass0
 
     ################################################################################
     # Make some plots, now that we grabbed the data.
     ################################################################################
+    '''
     figs = []
     subplots = []
     num_figs = 3
@@ -115,7 +118,7 @@ def main():
 
     plt.show()
 
-        
+    ''' 
 
 ################################################################################
 # Top-level script evironment
